@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar {
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 30px;
+
+}
+
+.Tesla-logo {
+    height: 25px;
+    width: 125px;
+    background-image: url(./images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.ul-1 {
+    height: 40px;
+    width: 450px;
+    padding-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.nav-btn {
+    height: 30px;
+    width: 70px;
+    border: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.nav-btn:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.ul-2 {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 40px;
+    height: 50px;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#btn1 {
+    height: 35px;
+    width: 35px;
+    background-image: url(./images/circle-question.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+#btn2 {
+    height: 35px;
+    width: 35px;
+    background-image: url(./images/circle.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+#btn3 {
+    height: 35px;
+    width: 35px;
+    background-image: url(./images/circle-user.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#btn1:hover{
+    background-color: rgb(214, 214, 214);
+}
+#btn2:hover{
+    background-color: rgb(214, 214, 214);
+}
+#btn3:hover{
+    background-color: rgb(214, 214, 214);
+}
+.s1 { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+    height: 72vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-FTC-Desktop.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-size:63px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#pr {
+    font-size:20px;
+    font-weight: 600;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.buttons {
+    gap: 20px;
+    padding-top: 20px;
+   
+}
+
+#section-btn1 {
+    width: 200px;
+    margin-right: 3px;
+    height: 40px;
+    background-color:#3e6ae1;
+    color: white;
+    border: none;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+}
+
+#section-btn2 {
+    width: 200px;
+    margin-left: 3px;
+    height: 40px;
+    background-color:#3e6ae1;
+    color: white;
+    border: none;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+}
+
+#section-btn1:hover{
+    background-color: #3051ac;
+}
+#section-btn2:hover{
+    background-color: #3051ac;
+}
